@@ -1,0 +1,131 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+nav ul{
+    display: inline-block;
+
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: #FFFFFF;
+}
+nav img{
+    width: 3opx;
+    height: 30px;
+}
+.hero{
+    background-image: url("/Images/Object.png");
+    margin: 0%;
+}
+.Tutors{
+    display: flex;
+    flex-direction: row;
+
+}
+.Tutors h3,p{
+    color: #FFFFFF;
+}
+.nannie{
+    border-radius: 100%;
+}
+.Get{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Get h1{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+.spans{
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+.Get button{
+    background-color: blueviolet;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: 100;
+    border: none;
+}
+h2{
+    text-align: center;
+}
+h2 em{
+    color: blueviolet;
+}
+.presenter{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    align-items: center;
+}
+.presenter h3,p{
+    margin-left: 40px;
+}
+.MostPopular{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.Phillip img{
+    width: 35px;
+    height: 35px;
+}
+.Phillip{
+    display: flex;
+    color: blueviolet;
+}
+.membership{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    
+}
+.free{
+    background-color: black;
+    color:#FFFFFF;
+    align-items: center;
+}
+.free button{
+   align-self: center;
+    color: #FFFFFF;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.faq1 {
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+}
+.faq2 {
+ display: flex;
+ margin: 40px;
+ gap: 20px;
+}
+footer{
+    background-color: black;
+    display: flex;
+}
+.footer p{
+    align-items: center;
+}
