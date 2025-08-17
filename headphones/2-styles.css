@@ -1,0 +1,40 @@
+body{
+    background-image: url('images/headphones_hero_1.jpg');
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   
+}
+li{
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    margin: 70px;
+    text-align: center;
+    color: #fff;
+}
+button{
+    background-color: orangered;
+    border-radius: 10px;
+    color:#fff;
+    border: none;
+    font: bolder;
+    margin: 50px;
+    
+}
+
+/*Media query*/
+@media screen and (min-width:480px) {
+    nav{
+        display: none;
+    }
+}
